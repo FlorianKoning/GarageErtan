@@ -1,0 +1,87 @@
+/* font imports */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat:wght@100;200&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+/* css for body */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #1C1C1C;
+    color: white;
+}
+/* Navbar */
+a {
+    color: #fff;
+}
+.navbar-brand {
+    font-weight: 500;
+    font-size: 22px;
+}
+.bg-color {
+    background-color: #282828;
+}
+.btn {
+    font-size: 17px;
+}
+/* Menu Title */
+.title {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    animation: Slide_Up 1.2s ease;
+}
+/* Menu List */
+.Myactive {
+    background-color: #240090;
+    color: white;
+}
+.list-group-item-action:hover {
+    color: #190061;
+    font-weight: 500;
+    font-size: 23px;
+}
+.Myactive:hover {
+    background-color: #240090;
+    color: white;
+}
+.klant {
+    display: inline-block;
+    margin-left: 470px;
+    margin-top: 9%;
+    font-size: 22px;
+    animation: SecondSlide_Up 1.8s ease;
+}
+.auto {
+    display: inline-block;
+    margin-left: 560px;
+    font-size: 22px;
+    animation: SecondSlide_Up 1.8s ease;
+}
+/* slide animation */
+@keyframes Slide_Up {
+    0% {
+        transform: translateY(250px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes SecondSlide_Up {
+    0% {
+        transform: translateY(320px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+/* create klant css */
+.title-two {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    animation: Slide_Up 1.2s ease;
+}
+
+
